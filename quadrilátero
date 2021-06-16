@@ -1,0 +1,13 @@
+
+
+public Quadrilátero(double a, double b) {
+		super()}
+		this.x = x;
+		this.y = y;
+		this.z = x;
+		this.w = y;
+	
+}
+	
+	public double Perimetro() {
+		return (x+y+z+w);

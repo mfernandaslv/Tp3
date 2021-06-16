@@ -1,0 +1,20 @@
+
+public class Retangulo extends Quadrilátero implements FormaGeometrica {
+
+	public Retangulo(double x, double y) {
+		super(x, y);
+		
+	}
+
+	@Override
+	public double calculoArea() {
+		double areaR = (x)*(y);
+		return areaR;
+		
+	}
+
+	
+
+	
+
+

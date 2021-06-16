@@ -1,0 +1,15 @@
+ public class Quadrado extends Quadrilátero {
+
+	public Quadrado(double x) {
+		super(x, x);
+		
+	}
+
+	@Override
+	public double calculoArea() {
+		double areaQ = Math.pow(x, 2);
+		return areaQ;
+	}
+
+	
+	
